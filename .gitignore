@@ -1,0 +1,19 @@
+# This public repository must never contain live customer artifacts.
+.env
+*.env
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.backup
+*.zip
+*.7z
+*.pfx
+*.pem
+*.key
+*.credential.xml
+secrets/
+backups/
+logs/
+production/
+customer-data/
