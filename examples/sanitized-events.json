@@ -1,0 +1,20 @@
+{
+  "scope": "synthetic example",
+  "measurement": {
+    "eventId": "example-measurement-001",
+    "facilityScaleId": "facility-scale-1",
+    "source": "MACHINE",
+    "rawVendorValue": "42150",
+    "rawUnit": "grams",
+    "normalizedKg": "42.15",
+    "fresh": true,
+    "capturedAt": "2026-01-15T10:30:00Z"
+  },
+  "erpLink": {
+    "operationId": "example-operation-001",
+    "documentType": "RECEIVING",
+    "documentRef": "example-document-ref",
+    "rowRef": "example-row-ref",
+    "status": "RECONCILED"
+  }
+}
