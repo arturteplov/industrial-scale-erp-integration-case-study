@@ -1,0 +1,23 @@
+{
+  "siteId": "example-site",
+  "scales": [
+    {
+      "id": "facility-scale-1",
+      "role": "receiving",
+      "adapter": "vendor-http",
+      "sourceRef": "configured-scale-a"
+    },
+    {
+      "id": "facility-scale-2",
+      "role": "receiving",
+      "adapter": "vendor-http",
+      "sourceRef": "configured-scale-b"
+    },
+    {
+      "id": "facility-scale-3",
+      "role": "sorting",
+      "adapter": "vendor-http",
+      "sourceRef": "configured-scale-c"
+    }
+  ]
+}
